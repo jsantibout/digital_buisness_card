@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #23252C;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.App{
+  color: white;
+  background-color: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  margin: auto;
+  margin-top: 50px;
+  
+  
+}
+
+/* Info */
+.Info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.headshot{
+  width: 100%;  
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.email-button{
+  width: 247px;
+}
+
+.mailIcon{
+  width: 16px;
+}
+
+/* About */
+.About{
+  width: 100%;
+}
+
+/* Interest */
+
+/* Footer */
+.Footer{
+  background-color: #161619;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.Footer > ul > li > img{
+  width: 25px;
+}
+
+
+
+
+
